@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2012/05/07/11/15/memory-48118_1280.png);
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#iniciar-juego{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#iniciar-juego:hover{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: white;
+    color: rgb(255, 132, 0);
+}
+
+#contenedor-juego{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 5px 5px 30px black;
+}
+
+.card{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(121, 121, 121);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card-value{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;   
+}
+
+#mensaje{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 15px 15px 30px rgb(255, 255, 255);
+}
